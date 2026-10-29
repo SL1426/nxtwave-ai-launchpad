@@ -1,0 +1,14 @@
+{
+  "name": "nxtwave-ai-launchpad",
+  "version": "1.0.0",
+  "description": "NxtWave AI Project Launchpad - Referral Engine & Growth Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["nxtwave", "ai", "growth", "referral", "workshop"],
+  "author": "NxtWave Growth Engineering",
+  "license": "MIT"
+}
+

@@ -1,0 +1,392 @@
+{
+  "registrations": [
+    {
+      "id": "REG-1793212382581-705",
+      "name": "Harsha Reddy",
+      "college": "CBIT Hyderabad",
+      "branch": "CSE",
+      "phone": "9848031958",
+      "email": "harsha@cbit.ac.in",
+      "referral_code": "NWVSJY",
+      "referred_by": null,
+      "source": "direct",
+      "is_simulated": false,
+      "created_at": "2026-10-28T18:33:02.581Z"
+    },
+    {
+      "id": "REG-1793212382587-521",
+      "name": "Manish Kumar",
+      "college": "VIT Vellore",
+      "branch": "ECE",
+      "phone": "9848195473",
+      "email": "manish@vit.ac.in",
+      "referral_code": "NWV967",
+      "referred_by": "NWVSJY",
+      "source": "referral",
+      "is_simulated": false,
+      "created_at": "2026-10-28T18:33:02.587Z"
+    },
+    {
+      "id": "REG-1793262311481-710",
+      "name": "Sujal Sai Kothamasu",
+      "college": "SRM",
+      "branch": "CSE",
+      "phone": "9599400897",
+      "email": "sujalsaikothamasu@gmail.com",
+      "referral_code": "NW53B9",
+      "referred_by": null,
+      "source": "direct",
+      "is_simulated": false,
+      "created_at": "2026-10-29T08:25:11.481Z"
+    }
+  ],
+  "idea_requests": [
+    {
+      "id": "IDEA-1793212382589-813",
+      "branch": "CSE",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 company job descriptions and computes semantic similarity scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, Scikit-learn, Streamlit\",\"resumeBullet\":\"Created a semantic resume matching engine processing 200+ engineering profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Voice-Based Mock Placement Interviewer\",\"whatItDoes\":\"Asks standard HR and technical questions via browser speech synthesis, records candidate voice answers, and gives instant clarity scores.\",\"toolsUsed\":\"Web Speech API, Python, Whisper Free API, Tailwind CSS\",\"resumeBullet\":\"Constructed an interactive voice interview agent delivering real-time sentiment and technical relevance scores.\"},{\"title\":\"Autonomous Tech News Summarizer & Newsletter Agent\",\"whatItDoes\":\"Scrapes top AI GitHub repositories daily, summarizes changelogs, and drafts structured weekly updates.\",\"toolsUsed\":\"Python, BeautifulSoup4, DuckDuckGo Free Search, ReportLab\",\"resumeBullet\":\"Automated a multi-step research agent aggregating and summarizing open-source GitHub trends for 100+ daily readers.\"}]",
+      "created_at": "2026-10-28T18:33:02.589Z"
+    },
+    {
+      "id": "IDEA-1793214411441-722",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:06:51.441Z"
+    },
+    {
+      "id": "IDEA-1793215129252-554",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:18:49.252Z"
+    },
+    {
+      "id": "IDEA-1793215129258-684",
+      "branch": "AI",
+      "interest": "Generative AI & LLMs",
+      "ideas_json": "[{\"title\":\"Enterprise Multi-Modal PDF Research Copilot\",\"whatItDoes\":\"Allows students to ask questions over 50-page textbooks and get exact verbatim answers with diagram explanations.\",\"toolsUsed\":\"LangChain, ChromaDB, Llama-3-8B, Streamlit\",\"resumeBullet\":\"Designed production-grade RAG pipeline integrating semantic search with citation guardrails eliminating hallucinations.\"},{\"title\":\"Autonomous Placement Mock Technical Interviewer\",\"whatItDoes\":\"Conducts multi-turn conversational coding interviews, asking follow-up DSA questions based on candidate complexity.\",\"toolsUsed\":\"Web Speech API, Python, FastAPI, Free Gemini/Groq API\",\"resumeBullet\":\"Architected multi-turn conversational AI interviewer evaluating algorithmic code trade-offs in real time.\"},{\"title\":\"Multi-Agent Automated Technical Newsletter Synthesizer\",\"whatItDoes\":\"Coordinates two AI agents: a researcher that queries ArXiv for new papers, and an editor that compiles a 2-minute summary.\",\"toolsUsed\":\"LangGraph, Python, BeautifulSoup, ReportLab\",\"resumeBullet\":\"Built multi-agent research workflow automating ArXiv tech synthesis and publishing weekly digest to 300+ peers.\"}]",
+      "created_at": "2026-10-28T19:18:49.258Z"
+    },
+    {
+      "id": "IDEA-1793215129264-488",
+      "branch": "CSE",
+      "interest": "Web & App Development",
+      "ideas_json": "[{\"title\":\"Autonomous Code Review & Refactoring Bot\",\"whatItDoes\":\"Analyzes uploaded Python/JavaScript code snippets, highlights syntax and security bugs, and returns one-click diff fixes.\",\"toolsUsed\":\"Python, FastAPI, HuggingFace Free Inference API, Streamlit\",\"resumeBullet\":\"Engineered an AI code-review assistant catching 85%+ syntax and security flaws using AST parsing and free LLM APIs.\"},{\"title\":\"Enterprise Multi-Doc QA Assistant (Free RAG)\",\"whatItDoes\":\"Allows students to upload course lecture notes (PDFs) and ask questions with precise page citations.\",\"toolsUsed\":\"LangChain, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Developed a serverless RAG retrieval bot with ChromaDB vector search achieving 92% semantic precision on textbook queries.\"},{\"title\":\"Natural Language to SQL Query Generator\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against a SQLite database and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, Vanna Free Tier, Plotly\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:18:49.264Z"
+    },
+    {
+      "id": "IDEA-1793215129272-831",
+      "branch": "ECE",
+      "interest": "Embedded Systems & IoT",
+      "ideas_json": "[{\"title\":\"Edge Vision Defect Detection for Micro-Soldering\",\"whatItDoes\":\"Detects missing surface-mount resistors and solder bridges on uploaded circuit board photos using computer vision.\",\"toolsUsed\":\"Python, OpenCV, Edge Impulse, Streamlit\",\"resumeBullet\":\"Implemented a lightweight PCB defect classifier achieving 91% mAP on microscopic soldering images.\"},{\"title\":\"Virtual Sensor Telemetry Anomaly Predictor\",\"whatItDoes\":\"Analyzes simulated voltage and temperature streams to flag early micro-controller overheating before failure.\",\"toolsUsed\":\"Python, Scikit-learn (Isolation Forest), Dash, Plotly\",\"resumeBullet\":\"Architected real-time industrial sensor anomaly detector flagging voltage degradation 48 hours before hardware cutoff.\"},{\"title\":\"Speech Command Classifier for Microcontroller\",\"whatItDoes\":\"Transcribes keyword commands to trigger simulated GPIO pin toggles in a virtual hardware sandbox.\",\"toolsUsed\":\"Python, TensorFlow Lite, WebAudio, FastAPI\",\"resumeBullet\":\"Deployed quantized keyword spotting model running under 20ms latency on simulated edge hardware.\"}]",
+      "created_at": "2026-10-28T19:18:49.272Z"
+    },
+    {
+      "id": "IDEA-1793215129281-665",
+      "branch": "EEE",
+      "interest": "Renewable Energy & Power",
+      "ideas_json": "[{\"title\":\"Smart Grid Peak Load & Solar Output Forecaster\",\"whatItDoes\":\"Predicts peak electrical load and rooftop solar generation based on real-time weather feeds to balance microgrid power.\",\"toolsUsed\":\"Python, Prophet, Pandas, Streamlit\",\"resumeBullet\":\"Built time-series solar power forecasting model predicting microgrid power spikes with 90.4% accuracy.\"},{\"title\":\"Transformer Thermal Health Diagnostic Agent\",\"whatItDoes\":\"Inputs oil temperature, load history, and dissolved gas metrics to recommend preventive maintenance intervals.\",\"toolsUsed\":\"Python, LightGBM, Streamlit\",\"resumeBullet\":\"Designed predictive electrical equipment health model reducing simulated substation downtime by 35%.\"},{\"title\":\"Voice-Controlled Substation Log Analyzer\",\"whatItDoes\":\"Allows field engineers to query daily transformer outage logs using spoken queries and receive summarized status.\",\"toolsUsed\":\"Web Speech API, Python, Free LLM API, Tailwind CSS\",\"resumeBullet\":\"Developed conversational interface for querying historical electrical substation logs in natural language.\"}]",
+      "created_at": "2026-10-28T19:18:49.281Z"
+    },
+    {
+      "id": "IDEA-1793215129288-205",
+      "branch": "Mech",
+      "interest": "Design & Robotics",
+      "ideas_json": "[{\"title\":\"CAD Drawing BOM & GD&T Tolerance Extractor\",\"whatItDoes\":\"Parses mechanical engineering drawing PDFs/images to auto-extract component dimensions and Bill of Materials.\",\"toolsUsed\":\"Python, Tesseract OCR, OpenCV, Streamlit\",\"resumeBullet\":\"Built automated engineering drawing analyzer extracting CAD tolerance specs with 93% recall rate.\"},{\"title\":\"Bearing Vibration Failure Classifier (FFT)\",\"whatItDoes\":\"Processes industrial vibration audio data with Fast Fourier Transform to distinguish healthy vs worn motor bearings.\",\"toolsUsed\":\"Python, SciPy (FFT), Scikit-Learn, Streamlit\",\"resumeBullet\":\"Engineered acoustic vibration classifier detecting early bearing damage before catastrophic machine breakdown.\"},{\"title\":\"Generative Bracket Weight & Stress Optimizer\",\"whatItDoes\":\"Accepts mechanical load specifications and outputs optimized lightweight bracket dimensions with safety factors.\",\"toolsUsed\":\"Python, NumPy, Matplotlib, Streamlit\",\"resumeBullet\":\"Created surrogate AI optimization tool reducing structural component mass by 22% under 10kN loads.\"}]",
+      "created_at": "2026-10-28T19:18:49.288Z"
+    },
+    {
+      "id": "IDEA-1793215129296-593",
+      "branch": "Civil",
+      "interest": "Structural & Construction AI",
+      "ideas_json": "[{\"title\":\"Drone Concrete Crack & Spalling Segmentation\",\"whatItDoes\":\"Detects and measures structural surface cracks on bridges and concrete pillars from uploaded drone photography.\",\"toolsUsed\":\"Python, OpenCV, YOLOv8, Streamlit\",\"resumeBullet\":\"Deployed computer vision crack detection model measuring millimeter-scale fissures with 92% segmentation accuracy.\"},{\"title\":\"Smart Building Energy & HVAC Optimization\",\"whatItDoes\":\"Predicts cooling loads based on ambient temperature, occupancy, and solar irradiance to optimize energy consumption.\",\"toolsUsed\":\"Python, XGBoost, Pandas, Streamlit\",\"resumeBullet\":\"Built predictive building management model projecting a 18% reduction in peak HVAC electricity usage.\"},{\"title\":\"Automated Blueprint Material Quantity Take-Off\",\"whatItDoes\":\"Extracts room dimensions, door schedules, and wall areas from architectural blueprint PDFs to estimate concrete volume.\",\"toolsUsed\":\"Python, PyMuPDF, OCR, Streamlit\",\"resumeBullet\":\"Automated material estimation pipeline reducing structural quantity take-off time from 4 hours to 90 seconds.\"}]",
+      "created_at": "2026-10-28T19:18:49.296Z"
+    },
+    {
+      "id": "IDEA-1793215673901-850",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:27:53.901Z"
+    },
+    {
+      "id": "IDEA-1793215683036-895",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:28:03.036Z"
+    },
+    {
+      "id": "IDEA-1793215689142-888",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:28:09.142Z"
+    },
+    {
+      "id": "IDEA-1793215691152-762",
+      "branch": "AI",
+      "interest": "Generative AI & LLMs",
+      "ideas_json": "[{\"title\":\"Enterprise Multi-Modal PDF Research Copilot\",\"whatItDoes\":\"Allows students to ask questions over 50-page textbooks and get exact verbatim answers with diagram explanations.\",\"toolsUsed\":\"LangChain, ChromaDB, Llama-3-8B, Streamlit\",\"resumeBullet\":\"Designed production-grade RAG pipeline integrating semantic search with citation guardrails eliminating hallucinations.\"},{\"title\":\"Autonomous Placement Mock Technical Interviewer\",\"whatItDoes\":\"Conducts multi-turn conversational coding interviews, asking follow-up DSA questions based on candidate complexity.\",\"toolsUsed\":\"Web Speech API, Python, FastAPI, Free Gemini/Groq API\",\"resumeBullet\":\"Architected multi-turn conversational AI interviewer evaluating algorithmic code trade-offs in real time.\"},{\"title\":\"Multi-Agent Automated Technical Newsletter Synthesizer\",\"whatItDoes\":\"Coordinates two AI agents: a researcher that queries ArXiv for new papers, and an editor that compiles a 2-minute summary.\",\"toolsUsed\":\"LangGraph, Python, BeautifulSoup, ReportLab\",\"resumeBullet\":\"Built multi-agent research workflow automating ArXiv tech synthesis and publishing weekly digest to 300+ peers.\"}]",
+      "created_at": "2026-10-28T19:28:11.152Z"
+    },
+    {
+      "id": "IDEA-1793215693871-972",
+      "branch": "CSE",
+      "interest": "Web & App Development",
+      "ideas_json": "[{\"title\":\"Autonomous Code Review & Refactoring Bot\",\"whatItDoes\":\"Analyzes uploaded Python/JavaScript code snippets, highlights syntax and security bugs, and returns one-click diff fixes.\",\"toolsUsed\":\"Python, FastAPI, HuggingFace Free Inference API, Streamlit\",\"resumeBullet\":\"Engineered an AI code-review assistant catching 85%+ syntax and security flaws using AST parsing and free LLM APIs.\"},{\"title\":\"Enterprise Multi-Doc QA Assistant (Free RAG)\",\"whatItDoes\":\"Allows students to upload course lecture notes (PDFs) and ask questions with precise page citations.\",\"toolsUsed\":\"LangChain, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Developed a serverless RAG retrieval bot with ChromaDB vector search achieving 92% semantic precision on textbook queries.\"},{\"title\":\"Natural Language to SQL Query Generator\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against a SQLite database and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, Vanna Free Tier, Plotly\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-28T19:28:13.871Z"
+    },
+    {
+      "id": "IDEA-1793215698634-141",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-28T19:28:18.634Z"
+    },
+    {
+      "id": "IDEA-1793260839611-441",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T08:00:39.611Z"
+    },
+    {
+      "id": "IDEA-1793265911431-810",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T09:25:11.431Z"
+    },
+    {
+      "id": "IDEA-1793269822886-686",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:30:22.886Z"
+    },
+    {
+      "id": "IDEA-1793269825151-472",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:30:25.151Z"
+    },
+    {
+      "id": "IDEA-1793269858258-929",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:30:58.258Z"
+    },
+    {
+      "id": "IDEA-1793269912192-551",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:31:52.192Z"
+    },
+    {
+      "id": "IDEA-1793269917102-779",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:31:57.102Z"
+    },
+    {
+      "id": "IDEA-1793269918550-427",
+      "branch": "AI",
+      "interest": "Generative AI & LLMs",
+      "ideas_json": "[{\"title\":\"Enterprise Multi-Modal PDF Research Copilot\",\"whatItDoes\":\"Allows students to ask questions over 50-page textbooks and get exact verbatim answers with diagram explanations.\",\"toolsUsed\":\"LangChain, ChromaDB, Llama-3-8B, Streamlit\",\"resumeBullet\":\"Designed production-grade RAG pipeline integrating semantic search with citation guardrails eliminating hallucinations.\"},{\"title\":\"Autonomous Placement Mock Technical Interviewer\",\"whatItDoes\":\"Conducts multi-turn conversational coding interviews, asking follow-up DSA questions based on candidate complexity.\",\"toolsUsed\":\"Web Speech API, Python, FastAPI, Free Gemini/Groq API\",\"resumeBullet\":\"Architected multi-turn conversational AI interviewer evaluating algorithmic code trade-offs in real time.\"},{\"title\":\"Multi-Agent Automated Technical Newsletter Synthesizer\",\"whatItDoes\":\"Coordinates two AI agents: a researcher that queries ArXiv for new papers, and an editor that compiles a 2-minute summary.\",\"toolsUsed\":\"LangGraph, Python, BeautifulSoup, ReportLab\",\"resumeBullet\":\"Built multi-agent research workflow automating ArXiv tech synthesis and publishing weekly digest to 300+ peers.\"}]",
+      "created_at": "2026-10-29T10:31:58.550Z"
+    },
+    {
+      "id": "IDEA-1793269920153-187",
+      "branch": "CSE",
+      "interest": "Web & App Development",
+      "ideas_json": "[{\"title\":\"Autonomous Code Review & Refactoring Bot\",\"whatItDoes\":\"Analyzes uploaded Python/JavaScript code snippets, highlights syntax and security bugs, and returns one-click diff fixes.\",\"toolsUsed\":\"Python, FastAPI, HuggingFace Free Inference API, Streamlit\",\"resumeBullet\":\"Engineered an AI code-review assistant catching 85%+ syntax and security flaws using AST parsing and free LLM APIs.\"},{\"title\":\"Enterprise Multi-Doc QA Assistant (Free RAG)\",\"whatItDoes\":\"Allows students to upload course lecture notes (PDFs) and ask questions with precise page citations.\",\"toolsUsed\":\"LangChain, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Developed a serverless RAG retrieval bot with ChromaDB vector search achieving 92% semantic precision on textbook queries.\"},{\"title\":\"Natural Language to SQL Query Generator\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against a SQLite database and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, Vanna Free Tier, Plotly\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:32:00.153Z"
+    },
+    {
+      "id": "IDEA-1793269923202-47",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:32:03.202Z"
+    },
+    {
+      "id": "IDEA-1793269935290-434",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:32:15.290Z"
+    },
+    {
+      "id": "IDEA-1793269952295-951",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:32:32.295Z"
+    },
+    {
+      "id": "IDEA-1793269990538-197",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:33:10.538Z"
+    },
+    {
+      "id": "IDEA-1793269993839-796",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:33:13.839Z"
+    },
+    {
+      "id": "IDEA-1793270055813-444",
+      "branch": "CSE",
+      "interest": "Cloud & DevOps Security",
+      "ideas_json": "[{\"title\":\"Autonomous CI/CD Build Failure Explainer\",\"whatItDoes\":\"Parses messy Docker/npm compiler build logs and outputs plain English 1-sentence explanations and fix commands.\",\"toolsUsed\":\"Python, Regex, Llama-3 (Groq free tier), GitHub Webhooks\",\"resumeBullet\":\"Created automated CI/CD triage bot providing actionable bug resolutions for complex dependency conflicts.\"},{\"title\":\"API Gateway Anomaly & DDoS Sentinel\",\"whatItDoes\":\"Monitors REST API latency and error rates in real time, auto-generating incident root-cause explanations using LLM reasoning.\",\"toolsUsed\":\"Node.js, Express, HuggingFace Inference API, Tailwind CSS\",\"resumeBullet\":\"Engineered real-time API monitoring agent reducing mean time to root cause diagnosis by 60% on simulated server logs.\"},{\"title\":\"Cloud IAM Misconfiguration Remediation Bot\",\"whatItDoes\":\"Scans cloud configuration JSONs for open S3 buckets and wildcard permissions, proposing least-privilege patches.\",\"toolsUsed\":\"Python, JSONSchema, Streamlit, Groq API\",\"resumeBullet\":\"Constructed automated cloud security auditor identifying IAM privilege escalations with 95% precision.\"}]",
+      "created_at": "2026-10-29T10:34:15.813Z"
+    },
+    {
+      "id": "IDEA-1793270541440-210",
+      "branch": "AI",
+      "interest": "Machine Learning & AI",
+      "ideas_json": "[{\"title\":\"Real-Time Placement Resume Semantic Screener\",\"whatItDoes\":\"Parses candidate resumes against tier-1 job descriptions and computes semantic match scores with missing keyword advice.\",\"toolsUsed\":\"Python, spaCy, ChromaDB, Sentence-Transformers, Streamlit\",\"resumeBullet\":\"Engineered a semantic resume matching engine processing 200+ profiles against placement JDs in under 2 seconds.\"},{\"title\":\"Automated Student Placement Package Predictor\",\"whatItDoes\":\"Predicts expected campus salary brackets based on GPA, DSA skills, and GitHub commits using gradient boosting.\",\"toolsUsed\":\"Python, Scikit-learn, LightGBM, Streamlit, Pandas\",\"resumeBullet\":\"Trained an end-to-end regression model achieving 91% accuracy in forecasting recruitment package distributions.\"},{\"title\":\"Autonomous SQL Data Analyst Agent (Talk-to-Data)\",\"whatItDoes\":\"Translates plain conversational questions into optimized SQL queries against campus databases and renders instant visual charts.\",\"toolsUsed\":\"Python, SQLite, LangChain, Plotly, Streamlit\",\"resumeBullet\":\"Built a generative text-to-SQL interface translating natural language to queries with 94% execution accuracy.\"}]",
+      "created_at": "2026-10-29T10:42:21.440Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "REM-1793213431602-6",
+      "college": "CBIT Hyderabad",
+      "message_type": "seed_forward",
+      "message_text": "Hey CBIT Hyderabad final years, if you still don't have a solid AI project on your resume for placements, NxtWave is hosting a free 60-minute hands-on workshop this weekend. We'll build and deploy a working AI agent live from scratch. Zero fluff, fully verified certificate. Claim your spot before seats fill:\nhttp://localhost:3000 🚀",
+      "created_at": "2026-10-28T18:50:31.602Z"
+    },
+    {
+      "id": "REM-1793213431603-494",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-3d",
+      "message_text": "Gentle reminder for CBIT Hyderabad seniors: 3 days left for the free \"Build Your First AI Project in 60 Minutes\" workshop. Don't show up to campus interviews with a copied mini-project. Reserve your seat here:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T18:50:31.603Z"
+    },
+    {
+      "id": "REM-1793213431603-438",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1d",
+      "message_text": "Tomorrow at 6 PM: 60-minute live build starts. You'll finish with a working AI app live on your GitHub and resume. Over 400 engineering students registered. Join link:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T18:50:31.603Z"
+    },
+    {
+      "id": "REM-1793213431610-628",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1h",
+      "message_text": "Starting in 1 hour! Have your laptops and browser ready. Here is the direct entry link for CBIT Hyderabad batch:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T18:50:31.610Z"
+    },
+    {
+      "id": "REM-1793215730138-201",
+      "college": "CBIT Hyderabad",
+      "message_type": "seed_forward",
+      "message_text": "Hey CBIT Hyderabad final years, if you still don't have a solid AI project on your resume for placements, NxtWave is hosting a free 60-minute hands-on workshop this weekend. We'll build and deploy a working AI agent live from scratch. Zero fluff, fully verified certificate. Claim your spot before seats fill:\nhttp://localhost:3000 🚀",
+      "created_at": "2026-10-28T19:28:50.138Z"
+    },
+    {
+      "id": "REM-1793215730140-565",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-3d",
+      "message_text": "Gentle reminder for CBIT Hyderabad seniors: 3 days left for the free \"Build Your First AI Project in 60 Minutes\" workshop. Don't show up to campus interviews with a copied mini-project. Reserve your seat here:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T19:28:50.140Z"
+    },
+    {
+      "id": "REM-1793215730149-265",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1d",
+      "message_text": "Tomorrow at 6 PM: 60-minute live build starts. You'll finish with a working AI app live on your GitHub and resume. Over 400 engineering students registered. Join link:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T19:28:50.149Z"
+    },
+    {
+      "id": "REM-1793215730173-588",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1h",
+      "message_text": "Starting in 1 hour! Have your laptops and browser ready. Here is the direct entry link for CBIT Hyderabad batch:\nhttp://localhost:3000",
+      "created_at": "2026-10-28T19:28:50.173Z"
+    },
+    {
+      "id": "REM-1793260891270-31",
+      "college": "CBIT Hyderabad",
+      "message_type": "seed_forward",
+      "message_text": "Hey CBIT Hyderabad final years, if you still don't have a solid AI project on your resume for placements, NxtWave is hosting a free 60-minute hands-on workshop this weekend. We'll build and deploy a working AI agent live from scratch. Zero fluff, fully verified certificate. Claim your spot before seats fill:\nhttp://localhost:3000 🚀",
+      "created_at": "2026-10-29T08:01:31.270Z"
+    },
+    {
+      "id": "REM-1793260891272-465",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-3d",
+      "message_text": "Gentle reminder for CBIT Hyderabad seniors: 3 days left for the free \"Build Your First AI Project in 60 Minutes\" workshop. Don't show up to campus interviews with a copied mini-project. Reserve your seat here:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T08:01:31.272Z"
+    },
+    {
+      "id": "REM-1793260891281-622",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1d",
+      "message_text": "Tomorrow at 6 PM: 60-minute live build starts. You'll finish with a working AI app live on your GitHub and resume. Over 400 engineering students registered. Join link:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T08:01:31.281Z"
+    },
+    {
+      "id": "REM-1793260891298-990",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1h",
+      "message_text": "Starting in 1 hour! Have your laptops and browser ready. Here is the direct entry link for CBIT Hyderabad batch:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T08:01:31.298Z"
+    },
+    {
+      "id": "REM-1793269841668-125",
+      "college": "CBIT Hyderabad",
+      "message_type": "seed_forward",
+      "message_text": "Hey CBIT Hyderabad seniors, if you don't have a solid AI project on your resume yet, NxtWave is hosting a free 60-minute hands-on workshop this weekend. We'll build and deploy a working AI agent live from scratch. Zero fluff, fully verified certificate. Claim your spot before seats fill:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T10:30:41.668Z"
+    },
+    {
+      "id": "REM-1793269841669-930",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-3d",
+      "message_text": "Gentle reminder for CBIT Hyderabad seniors: 3 days left for the free \"Build Your First AI Project in 60 Minutes\" workshop. Don't show up to campus interviews with a copied mini-project. Reserve your seat here:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T10:30:41.669Z"
+    },
+    {
+      "id": "REM-1793269841669-571",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1d",
+      "message_text": "Tomorrow at 6 PM: 60-minute live build starts. You'll finish with a working AI app live on your GitHub and resume. Over 400 engineering students registered. Join link:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T10:30:41.669Z"
+    },
+    {
+      "id": "REM-1793269841681-523",
+      "college": "CBIT Hyderabad",
+      "message_type": "T-1h",
+      "message_text": "Starting in 1 hour! Have your laptops and browser ready. Here is the direct entry link for CBIT Hyderabad batch:\nhttp://localhost:3000",
+      "created_at": "2026-10-29T10:30:41.681Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "SUB-1793265911438-108",
+      "registration_id": "NW53B9",
+      "project_url": "https://github.com/sujalsai/ai-capstone-agent",
+      "ai_feedback": "{\"score\":\"9.2 / 10\",\"student_name\":\"Sujal Sai Kothamasu\",\"college\":\"SRM\",\"rubric\":{\"idea_clarity\":{\"score\":9.5,\"max\":10,\"note\":\"Concise placement-focused problem definition with measurable impact.\"},\"working_demo\":{\"score\":9,\"max\":10,\"note\":\"Working public repository with clean structure and reproducible environment.\"},\"use_of_ai\":{\"score\":9.2,\"max\":10,\"note\":\"Effective prompt guardrails and zero-cost LLM API utilization.\"}},\"credential_id\":\"NXT-AI-MVTC80WD\"}",
+      "created_at": "2026-10-29T09:25:11.438Z"
+    },
+    {
+      "id": "SUB-1793270541448-151",
+      "registration_id": "NW53B9",
+      "project_url": "https://github.com/sujalsai/ai-capstone-agent",
+      "ai_feedback": "{\"score\":\"9.2 / 10\",\"student_name\":\"Sujal Sai Kothamasu\",\"college\":\"SRM\",\"rubric\":{\"idea_clarity\":{\"score\":9.5,\"max\":10,\"note\":\"Concise placement-focused problem definition with measurable impact.\"},\"working_demo\":{\"score\":9,\"max\":10,\"note\":\"Working public repository with clean structure and reproducible environment.\"},\"use_of_ai\":{\"score\":9.2,\"max\":10,\"note\":\"Effective prompt guardrails and zero-cost LLM API utilization.\"}},\"credential_id\":\"NXT-AI-MVTEZ9FS\"}",
+      "created_at": "2026-10-29T10:42:21.448Z"
+    }
+  ]
+}
